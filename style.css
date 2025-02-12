@@ -189,6 +189,7 @@ ul li a:hover {
 /*Testimonials*/
 
 .testimonials {
+    padding: 50px;
     background-color: #FBF4F6;
 }
 .testimonials h1 {
@@ -250,4 +251,167 @@ ul li a:hover {
     height: 300px;
     border-radius: 10px;
     margin: 10px;
+}
+
+/*Contact*/
+.contact {
+    padding: 50px;
+    background-color: #FBF4F6;
+}
+
+.contact h1 {
+    text-align: center;
+    padding: 60px 0px 50px;
+    text-transform: uppercase;
+}
+
+.contact h1::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #F99818;
+    margin: 20px auto;
+}
+
+.contact-info {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.contact-item i {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #3F181C;
+}
+
+.contact-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    width: 80%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: none;
+}
+
+.submit-btn {
+    padding: 15px 30px;
+    background: #3F181C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #F99818;
+    color: #3F181C;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #151515;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.footer-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    margin: 0 10px;
+}
+
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #F99818;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 14px;
 }
